@@ -1,0 +1,24 @@
+# Compiled python modules.
+*.pyc
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+
+# Setup configuration file
+setup.cfg
+
+# Build folder
+build/
+
+# distribution folder
+dist/
+
+# temporary directory
+temp/
+
+# configuration folder for vscode
+.vscode/
+.vscode/settings.json
+
+# A state file generated from vim
+*.swp
