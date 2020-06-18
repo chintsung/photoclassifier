@@ -62,7 +62,7 @@ def process_image(imagefiles):
             dest = os.path.join(os.path.join(head, date), tail)
             makedirs(os.path.dirname(dest))
             shutil.move(image, dest)
-            print('copy file {} to {}'.format(image, dest))
+            print('move file {} to {}'.format(image, dest))
             cnt += 1
     finally:
         print('Process {} photos totally.'.format(cnt))

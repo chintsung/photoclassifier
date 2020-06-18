@@ -22,3 +22,6 @@ temp/
 
 # A state file generated from vim
 *.swp
+
+# Generated from coverage tool
+.coverage
